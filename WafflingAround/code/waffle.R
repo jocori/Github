@@ -10,6 +10,7 @@ waffle <- waffle[,-c(11,13)]
 
 
 #hello
+
 ## remove slavery columns :(
 waffle <- waffle[,-c(11,13)]
 
