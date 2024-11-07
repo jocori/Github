@@ -2,9 +2,9 @@
 
 # install usethis package (if needed)
 install.packages("usethis")
-
+setwd("~/Desktop/KU")
 # step 1 (create the project: this creates a new folder)
-usethis::create_project("path/to/new_directory")  # usually opens a new Rstudio 
+usethis::create_project("Github")  # usually opens a new Rstudio
 
 # step 2 (connect it with git; answer the questions in the console)
 usethis::use_git()  # commit changes; restart RStudio
