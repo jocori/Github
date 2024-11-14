@@ -1,3 +1,6 @@
+Ridiculously Detailed Explanation of the contents of this File:
+
+Description of the variables
 Location : State name
 
 Loc : State abbreviation
@@ -15,6 +18,8 @@ Divorce : 2009 divorce rate per 1000 adults
 Divorce.SE : Standard error of rate
 
 WaffleHouses : Number of diners
+
+barplot(
 
 South : 1 indicates Southern State
 
