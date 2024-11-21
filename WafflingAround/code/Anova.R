@@ -45,7 +45,7 @@ ggplot(waffle, aes(x = Location, y = Divorce, fill = Region)) +
 
 
 boxplot(waffle$Divorce ~ waffle$Region)
-
+boxplot(waffle$WaffleHouses ~ waffle$Region)
 
 
 
@@ -54,3 +54,4 @@ summary(lm.model)
 
 lm.model_two <- lm(waffle$WaffleHouses ~ waffle$Region)
 summary(lm.model_two)
+confint(lm.model_two)
